@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web personal</title>
+    <script src="https://kit.fontawesome.com/2f32a8af2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+    body {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    }
+
+    nav {
+    background-color: #e2e4e9;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    }
+
+    .nav-links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    }
+
+.nav-links li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    }
+
+.logo h1 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    .Main_page {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid #cfd7d2c2;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: black;
+    }
+
+    .contact-text a {
+    color: #08697c;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    }
+
+    .contact-text a:hover {
+    background-color: #08697c;
+    color: #000000;
+    }
+
+</style>
+    <nav>
+        <div class="navbar-container">
+            <div class="logo">
+                <h1>Perkenalan</h1> <!--Sebuah teks yang ada di nav bar-->
+            </div>
+            <ul class="nav-links"><!--Menu yang ada di nav bar-->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">Tentang</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="Main_page" style="border: 5px solid #0db2d3"> <!--Tubuh dari tampilan yang ada-->
+    <section id="home">
+        <div class="hero-content"><!--Home yang mengarah pada foto profil-->
+            <div class="home-text">
+                <img src="Foto muka.jpg" alt="Face picture" style="width: 250px;height: 250px;border-radius: 50%;border: 5px solid #0db2d3;">
+            </div>
+        </section>
+        
+        <section id="About">
+        <div class="About-content"><!--About yang mengarah pada tentang saya-->
+            <div class="About-text" style="text-align: center;justify-content: center;">
+                <h2 style="font-family: sans-serif;"><b>Perkenalkan nama lengkap saya <mark>Hafiz Briliansyah Adwitya Hartawan</mark> dari kelas <mark>1 D4 IT A </mark>dengan <mark\NRP 3125600019 </mark>asal saya dari Sidoarjo</b></h2>
+                <h3>saya memiliki beberapa hobi seperti: 
+                    <li>bermain game</li>
+                </h3>
+            </div>
+        </div>
+        </section>
+
+        <section id="Contact">
+        <div class="Contact-content"><!--contact berisi sosial media saya-->
+            <div class="Contact-text">
+                <a href="https://www.instagram.com/realblor/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #0db2d3;"></i></a>
+                <a href="https://www.tiktok.com/@justblor?_t=ZS-8zC2oweic8g&_r=1" target="_blank"><i class="fa-brands fa-tiktok fa-2xl" style="color: #0db2d3;"></i></a>
+            </div>
+        </div>
+        </section>
+    </div>
+</body>
+</html>
